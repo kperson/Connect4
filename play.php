@@ -1,4 +1,7 @@
 <?php require_once('init.php');
+if(!isset($_SESSION['member_id'])){
+    redirect('login.php');
+}
 $game = gameData($_SESSION['member_id'], $_GET['game']);
 ?>
 

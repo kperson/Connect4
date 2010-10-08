@@ -49,4 +49,6 @@ if(!empty($_POST)){
 
 </form>
 
+<p><a href="register.php">Register</a></p>
+
 <?php require_once('foot.php'); ?>
