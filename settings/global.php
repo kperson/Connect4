@@ -1,10 +1,11 @@
 <?php
 //MYSQL Example
 
+/*
 DEFINE('DSN', 'mysql:dbname=connect4;host=localhost;port=3306');
 DEFINE('USER_NAME', 'root');
-DEFINE('PASSWORD', 'kelton');
- 
+DEFINE('PASSWORD', 'password');
+ */
 
 //Postgres Example
 /*
