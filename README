@@ -1,0 +1,3 @@
+This project uses PDO (PHP Database Objects) so any database that supports transactions and PDO should work fine.
+In settings/global.php configure your database settings.
+I have included sql create file for MySQL (db/connect4.sql).  For other databases you will have to recreate the schema based off of MySQL.
